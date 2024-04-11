@@ -1,0 +1,1890 @@
+[
+    {
+        "date": "22-02-2024",
+        "time": "16:17:51",
+        "transaction_id": "0118dd01b5e27sbx",
+        "amount": -1500000.0,
+        "balance": "201,942.00",
+        "description": "QR-IBFT: VO NGUYEN TUYET NHI CHUYEN TIEN"
+    },
+    {
+        "date": "22-02-2024",
+        "time": "16:17:51",
+        "transaction_id": "0118dd01b5e27sbx",
+        "amount": -5000.0,
+        "balance": "196,942.00",
+        "description": "Phi dich vu thanh toan chuyen tien"
+    },
+    {
+        "date": "22-02-2024",
+        "time": "16:17:51",
+        "transaction_id": "0118dd01b5e27sbx",
+        "amount": -500.0,
+        "balance": "196,442.00",
+        "description": "THUE GTGT 10%"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:09:06",
+        "transaction_id": "0118dd201c0578CC",
+        "amount": -58000.0,
+        "balance": "138,442.00",
+        "description": "QR-IBFT: VO NGUYEN TUYET NHI CHUYEN TIEN"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:11:23",
+        "transaction_id": "0118dd203d53a8cL",
+        "amount": 50000.0,
+        "balance": "188,442.00",
+        "description": "IBFT-IN: RLL1FC06"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:11:41",
+        "transaction_id": "0118dd2041d8c8fA",
+        "amount": 500000.0,
+        "balance": "688,442.00",
+        "description": "IBFT-IN: R2MJLW92"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:11:49",
+        "transaction_id": "0118dd2043bfb8hF",
+        "amount": 500000.0,
+        "balance": "1,188,442.00",
+        "description": "IBFT-IN: RFD1DH46"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:12:08",
+        "transaction_id": "0118dd20486828ly",
+        "amount": 50000.0,
+        "balance": "1,238,442.00",
+        "description": "IBFT-IN: QR - RC8BZG44"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:12:14",
+        "transaction_id": "0118dd2049ca58nE",
+        "amount": 270000.0,
+        "balance": "1,508,442.00",
+        "description": "IBFT-IN: R0WMXT26 FT24054946802324"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:12:21",
+        "transaction_id": "0118dd204baf48p3",
+        "amount": 50000.0,
+        "balance": "1,558,442.00",
+        "description": "IBFT-IN: QR - RQ6D3Q99"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:12:32",
+        "transaction_id": "0118dd204e40b8rP",
+        "amount": 300000.0,
+        "balance": "1,858,442.00",
+        "description": "IBFT-IN: R2ZC8Y44 FT24054378506804"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:12:49",
+        "transaction_id": "0118dd20527748tt",
+        "amount": 200000.0,
+        "balance": "2,058,442.00",
+        "description": "IBFT-IN: RD1SDC31 FT24054097101322"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:12:56",
+        "transaction_id": "0118dd205429f8vm",
+        "amount": 10000.0,
+        "balance": "2,068,442.00",
+        "description": "IBFT-IN: R5MPYL44"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:13:23",
+        "transaction_id": "0118dd205acf291i",
+        "amount": 200000.0,
+        "balance": "2,268,442.00",
+        "description": "IBFT-IN: VIETBANK;000003756036;RXK7YA97"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:13:47",
+        "transaction_id": "0118dd2060780964",
+        "amount": 2000000.0,
+        "balance": "4,268,442.00",
+        "description": "IBFT-IN: Thanh toan QR RLGFCP27"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:13:52",
+        "transaction_id": "0118dd2061bb5981",
+        "amount": 1000000.0,
+        "balance": "5,268,442.00",
+        "description": "IBFT-IN: RVJBJL21"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:14:08",
+        "transaction_id": "0118dd2065c459AV",
+        "amount": 1490000.0,
+        "balance": "6,758,442.00",
+        "description": "IBFT-IN: Thanh toan QR RVB33G07"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:14:27",
+        "transaction_id": "0118dd206a6fa9F1",
+        "amount": 20000.0,
+        "balance": "6,778,442.00",
+        "description": "IBFT-IN: RGYXE581"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:14:32",
+        "transaction_id": "0118dd206b9f59HA",
+        "amount": 10000.0,
+        "balance": "6,788,442.00",
+        "description": "IBFT-IN: Thanh toan QR RRPQLZ43"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:14:33",
+        "transaction_id": "0118dd206bd0f9Hp",
+        "amount": 100000.0,
+        "balance": "6,888,442.00",
+        "description": "IBFT-IN: R6P0RG02 FT24054146058900"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:14:35",
+        "transaction_id": "0118dd206c45b9IK",
+        "amount": 50000.0,
+        "balance": "6,938,442.00",
+        "description": "IBFT-IN: MBVCB.5358089352.029657.RYVZN204.CT tu 1040024127 PHAN TUAN VI toi 000003756036 VO NGUYEN T"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:14:59",
+        "transaction_id": "0118dd207227e9O4",
+        "amount": 11000.0,
+        "balance": "6,949,442.00",
+        "description": "IBFT-IN: R6PRC586"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:15:20",
+        "transaction_id": "0118dd20772d39RP",
+        "amount": 200000.0,
+        "balance": "7,149,442.00",
+        "description": "IBFT-IN: RMZDNV51"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:15:22",
+        "transaction_id": "0118dd2077cbb9SS",
+        "amount": 20000.0,
+        "balance": "7,169,442.00",
+        "description": "IBFT-IN: R7HEAS61 FT24054146061554"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:16:03",
+        "transaction_id": "0118dd2081b619ZP",
+        "amount": 600000.0,
+        "balance": "7,769,442.00",
+        "description": "IBFT-IN: MBVCB.5358090253.030569.RZVRUC53.CT tu 0481000716447 TRAN VU DUY TAN toi 000003756036 VO NG"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:16:17",
+        "transaction_id": "0118dd20854ae9cG",
+        "amount": 500000.0,
+        "balance": "8,269,442.00",
+        "description": "IBFT-IN: RKGW9S29"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:17:20",
+        "transaction_id": "0118dd20948069ne",
+        "amount": 300000.0,
+        "balance": "8,569,442.00",
+        "description": "IBFT-IN: RL05YC77 FT24054311362336"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:18:06",
+        "transaction_id": "0118dd209fd119wo",
+        "amount": 200000.0,
+        "balance": "8,769,442.00",
+        "description": "IBFT-IN: RJXP4D15-230224-01:18:05 268604"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:18:14",
+        "transaction_id": "0118dd20a1e3c9yE",
+        "amount": 3663000.0,
+        "balance": "12,432,442.00",
+        "description": "IBFT-IN: MBVCB.5358091400.031771.RHFX5K54.CT tu 1043871667 LENARD JAY MONTEFRIO PALAGANAS toi 000003"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:18:22",
+        "transaction_id": "0118dd20a3c53A0Z",
+        "amount": 50000.0,
+        "balance": "12,482,442.00",
+        "description": "IBFT-IN: Thanh toan QR R2SZ5F03"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:18:49",
+        "transaction_id": "0118dd20aa608A4O",
+        "amount": 200000.0,
+        "balance": "12,682,442.00",
+        "description": "IBFT-IN: IBFT RBLPPX69"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:18:51",
+        "transaction_id": "0118dd20aae1aA5k",
+        "amount": 1000000.0,
+        "balance": "13,682,442.00",
+        "description": "IBFT-IN: RHGVBS62 FT24054009805612"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:18:59",
+        "transaction_id": "0118dd20acc0bA6m",
+        "amount": 100000.0,
+        "balance": "13,782,442.00",
+        "description": "IBFT-IN: Thanh toan QR R74QM191"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:19:31",
+        "transaction_id": "0118dd20b4997ABi",
+        "amount": 100000.0,
+        "balance": "13,882,442.00",
+        "description": "IBFT-IN: Thanh toan QR RZWHYD21"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:19:42",
+        "transaction_id": "0118dd20b74cbAEU",
+        "amount": 200000.0,
+        "balance": "14,082,442.00",
+        "description": "IBFT-IN: RRWQBE00 FT24054383621840"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:20:05",
+        "transaction_id": "0118dd20bcc9dAJh",
+        "amount": 20000.0,
+        "balance": "14,102,442.00",
+        "description": "IBFT-IN: RWLVBE36"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:20:53",
+        "transaction_id": "0118dd20c8b27AT5",
+        "amount": 100000.0,
+        "balance": "14,202,442.00",
+        "description": "IBFT-IN: Thanh toan QR RHVGW270"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:21:07",
+        "transaction_id": "0118dd20cc01bAUz",
+        "amount": 100000.0,
+        "balance": "14,302,442.00",
+        "description": "IBFT-IN: R4WB1S09 FT24054948396859"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:21:16",
+        "transaction_id": "0118dd20ce480AYM",
+        "amount": 200000.0,
+        "balance": "14,502,442.00",
+        "description": "IBFT-IN: RW5DNY91"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:21:35",
+        "transaction_id": "0118dd20d2e7cAcF",
+        "amount": 50000.0,
+        "balance": "14,552,442.00",
+        "description": "IBFT-IN: Thanh toan QR RSAQPY10"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:23:24",
+        "transaction_id": "0118dd20ed8e2Avv",
+        "amount": 100000.0,
+        "balance": "14,652,442.00",
+        "description": "IBFT-IN: R1RF2K96"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:23:48",
+        "transaction_id": "0118dd20f35a4B0k",
+        "amount": 50000.0,
+        "balance": "14,702,442.00",
+        "description": "IBFT-IN: MBVCB.5358094068.034746.RMWTYD18.CT tu 1040024127 PHAN TUAN VI toi 000003756036 VO NGUYEN T"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:23:49",
+        "transaction_id": "0118dd20f3794B18",
+        "amount": 30000.0,
+        "balance": "14,732,442.00",
+        "description": "IBFT-IN: Thanh toan QR RGRDVH26"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:23:58",
+        "transaction_id": "0118dd20f5b51B3M",
+        "amount": 150000.0,
+        "balance": "14,882,442.00",
+        "description": "IBFT-IN: RK3WDW36"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:24:06",
+        "transaction_id": "0118dd20f7a47B5E",
+        "amount": 20000.0,
+        "balance": "14,902,442.00",
+        "description": "IBFT-IN: MBVCB.5358083995.034994.RZVHJA54.CT tu 1043937504 HO THI NHU LAN toi 000003756036 VO NGUYEN"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:24:11",
+        "transaction_id": "0118dd20f8fa1B6P",
+        "amount": 100000.0,
+        "balance": "15,002,442.00",
+        "description": "IBFT-IN: RSBRH794"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:24:22",
+        "transaction_id": "0118dd20fbad2B99",
+        "amount": 10000.0,
+        "balance": "15,012,442.00",
+        "description": "IBFT-IN: IBFT RXWQQG72"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:25:19",
+        "transaction_id": "0118dd21099ccBJR",
+        "amount": 700000.0,
+        "balance": "15,712,442.00",
+        "description": "IBFT-IN: REBLXE77 FT24054357178255"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:26:57",
+        "transaction_id": "0118dd2121562BZj",
+        "amount": 1000000.0,
+        "balance": "16,712,442.00",
+        "description": "IBFT-IN: Thanh toan QR R4W5EW82"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:27:07",
+        "transaction_id": "0118dd2123e4bBbj",
+        "amount": 200000.0,
+        "balance": "16,912,442.00",
+        "description": "IBFT-IN: ZP240540017242 240223000029299 RGNR4Y44"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:27:11",
+        "transaction_id": "0118dd2124cd1BcR",
+        "amount": 100000.0,
+        "balance": "17,012,442.00",
+        "description": "IBFT-IN: Thanh toan QR RTSWAK61"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:27:34",
+        "transaction_id": "0118dd212a676Bgl",
+        "amount": 500000.0,
+        "balance": "17,512,442.00",
+        "description": "IBFT-IN: QR - R4WWYC65"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:28:45",
+        "transaction_id": "0118dd213bb94BtB",
+        "amount": 50000.0,
+        "balance": "17,562,442.00",
+        "description": "IBFT-IN: Thanh toan QR R2DHE876"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:28:48",
+        "transaction_id": "0118dd213c7d3Bu0",
+        "amount": 2000000.0,
+        "balance": "19,562,442.00",
+        "description": "IBFT-IN: RUCHFJ85 FT24054590305719"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:28:53",
+        "transaction_id": "0118dd213dcb2BwZ",
+        "amount": 300000.0,
+        "balance": "19,862,442.00",
+        "description": "IBFT-IN: Thanh toan QR REBTDA40"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:29:01",
+        "transaction_id": "0118dd213fcc5Byk",
+        "amount": 20000.0,
+        "balance": "19,882,442.00",
+        "description": "IBFT-IN: RZR4XW28"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:29:05",
+        "transaction_id": "0118dd21409acBzI",
+        "amount": 200000.0,
+        "balance": "20,082,442.00",
+        "description": "IBFT-IN: RV6KXU77 FT24054007699855"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:37:33",
+        "transaction_id": "0118dd21bccf9DMB",
+        "amount": -19900000.0,
+        "balance": "182,442.00",
+        "description": "QR-IBFT: VO NGUYEN TUYET NHI CHUYEN TIEN"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:37:33",
+        "transaction_id": "0118dd21bccf9DMB",
+        "amount": -5000.0,
+        "balance": "177,442.00",
+        "description": "Phi dich vu thanh toan chuyen tien"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:37:33",
+        "transaction_id": "0118dd21bccf9DMB",
+        "amount": -500.0,
+        "balance": "176,942.00",
+        "description": "THUE GTGT 10%"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:39:26",
+        "transaction_id": "0118dd21d8682DbW",
+        "amount": 70000.0,
+        "balance": "246,942.00",
+        "description": "IBFT-IN: RYC8CK65"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:40:03",
+        "transaction_id": "0118dd21e14fdDhQ",
+        "amount": 100000.0,
+        "balance": "346,942.00",
+        "description": "IBFT-IN: QR - RCFRCG02"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:40:27",
+        "transaction_id": "0118dd21e74f2DmY",
+        "amount": 100000.0,
+        "balance": "446,942.00",
+        "description": "IBFT-IN: MBVCB.5358101640.043071.RJJD2Y78.CT tu 0621003869584 NGUYEN THI NGOC NHUNG toi 000003756036"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:40:31",
+        "transaction_id": "0118dd21e822eDnH",
+        "amount": 300000.0,
+        "balance": "746,942.00",
+        "description": "IBFT-IN: RLBW3R57 FT24054635719180"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:41:37",
+        "transaction_id": "0118dd21f836eE1i",
+        "amount": 500000.0,
+        "balance": "1,246,942.00",
+        "description": "IBFT-IN: RSQUVU65"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:41:41",
+        "transaction_id": "0118dd21f93f2E2U",
+        "amount": 100000.0,
+        "balance": "1,346,942.00",
+        "description": "IBFT-IN: R6AUEL62"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:42:30",
+        "transaction_id": "0118dd22055a5EBI",
+        "amount": 100000.0,
+        "balance": "1,446,942.00",
+        "description": "IBFT-IN: MBVCB.5358102905.044076.RR8RFK92.CT tu 0351001224299 NGUYEN VAN THUAN toi 000003756036 VO N"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:42:52",
+        "transaction_id": "0118dd220a8f9EGA",
+        "amount": 300000.0,
+        "balance": "1,746,942.00",
+        "description": "IBFT-IN: IBFT RRVKUG10"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:42:53",
+        "transaction_id": "0118dd220ae51EGe",
+        "amount": 2000000.0,
+        "balance": "3,746,942.00",
+        "description": "IBFT-IN: MBVCB.5358103212.044288.RVNHXK56.CT tu 9912144234 VU THANH TUNG toi 000003756036 VO NGUYEN"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:43:02",
+        "transaction_id": "0118dd220d25aEIw",
+        "amount": 50000.0,
+        "balance": "3,796,942.00",
+        "description": "IBFT-IN: IBFT RSB1PA28"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:43:04",
+        "transaction_id": "0118dd220da1cEJR",
+        "amount": 50000.0,
+        "balance": "3,846,942.00",
+        "description": "IBFT-IN: Thanh toan QR RF44JB30"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:43:13",
+        "transaction_id": "0118dd220fbe4ELD",
+        "amount": 10000.0,
+        "balance": "3,856,942.00",
+        "description": "IBFT-IN: RL0HXL95"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:43:56",
+        "transaction_id": "0118dd221a356ETk",
+        "amount": 100000.0,
+        "balance": "3,956,942.00",
+        "description": "IBFT-IN: Thanh toan QR R6GE0C59"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:44:09",
+        "transaction_id": "0118dd221d759EVM",
+        "amount": 220000.0,
+        "balance": "4,176,942.00",
+        "description": "IBFT-IN: RX874664 FT24054951863502"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:44:38",
+        "transaction_id": "0118dd222484aEbS",
+        "amount": 2000000.0,
+        "balance": "6,176,942.00",
+        "description": "IBFT-IN: IBFT RXUKEG73"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:45:13",
+        "transaction_id": "0118dd222d11bEi0",
+        "amount": 20000.0,
+        "balance": "6,196,942.00",
+        "description": "IBFT-IN: RUQPJT05"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:46:50",
+        "transaction_id": "0118dd2244b0cF0A",
+        "amount": 100000.0,
+        "balance": "6,296,942.00",
+        "description": "IBFT-IN: MBVCB.5358115921.046092.R1TYXV41.CT tu 1033595419 DINH THI PHUONG toi 000003756036 VO NGUYE"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:47:15",
+        "transaction_id": "0118dd224aef5F6W",
+        "amount": 200000.0,
+        "balance": "6,496,942.00",
+        "description": "IBFT-IN: MBVCB.5358116162.046243.RQRMX818.CT tu 0831000065213 NGUYEN XUAN CHIEN toi 000003756036 VO"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:47:25",
+        "transaction_id": "0118dd224d267F8m",
+        "amount": 50000.0,
+        "balance": "6,546,942.00",
+        "description": "IBFT-IN: 53728077611-01258977202-970433-RR9RNN66"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:47:55",
+        "transaction_id": "0118dd22547cdFJh",
+        "amount": 1000000.0,
+        "balance": "7,546,942.00",
+        "description": "IBFT-IN: Thanh toan QR RVHDKB31"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:48:33",
+        "transaction_id": "0118dd225de90FWs",
+        "amount": 2000000.0,
+        "balance": "9,546,942.00",
+        "description": "IBFT-IN: MBVCB.5358111356.046874.R1SGG282.CT tu 9912144234 VU THANH TUNG toi 000003756036 VO NGUYEN"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:48:48",
+        "transaction_id": "0118dd226199bFZR",
+        "amount": 30000.0,
+        "balance": "9,576,942.00",
+        "description": "IBFT-IN: R8FPN378-230224-01:48:48 274781"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:48:55",
+        "transaction_id": "0118dd2263362Fbj",
+        "amount": 100000.0,
+        "balance": "9,676,942.00",
+        "description": "IBFT-IN: Thanh toan QR RP6KMH87"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:49:08",
+        "transaction_id": "0118dd2266778Fe3",
+        "amount": 50000.0,
+        "balance": "9,726,942.00",
+        "description": "IBFT-IN: Thanh toan QR RQ5UAS02"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:49:31",
+        "transaction_id": "0118dd226bf53Fhx",
+        "amount": 100000.0,
+        "balance": "9,826,942.00",
+        "description": "IBFT-IN: Thanh toan QR R5QVEB64"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:49:44",
+        "transaction_id": "0118dd226f12fFl7",
+        "amount": 200000.0,
+        "balance": "10,026,942.00",
+        "description": "IBFT-IN: VIETBANK;000003756036;RQL6CE82"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:50:05",
+        "transaction_id": "0118dd22743b8Fon",
+        "amount": 10000.0,
+        "balance": "10,036,942.00",
+        "description": "IBFT-IN: RSV60E75"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:50:15",
+        "transaction_id": "0118dd2276c97FrA",
+        "amount": 500000.0,
+        "balance": "10,536,942.00",
+        "description": "IBFT-IN: RVLD1053-230224-01:50:15 275005"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:50:41",
+        "transaction_id": "0118dd227d1b1FvI",
+        "amount": 704000.0,
+        "balance": "11,240,942.00",
+        "description": "IBFT-IN: Thanh toan QR RYPT5U29"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:50:47",
+        "transaction_id": "0118dd227e8dcFx0",
+        "amount": 300000.0,
+        "balance": "11,540,942.00",
+        "description": "IBFT-IN: R0BLYU74 FT24054211901097"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:50:50",
+        "transaction_id": "0118dd227f6c5Fym",
+        "amount": 30000.0,
+        "balance": "11,570,942.00",
+        "description": "IBFT-IN: R7UFTC42"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:51:10",
+        "transaction_id": "0118dd22843b5G2K",
+        "amount": 100000.0,
+        "balance": "11,670,942.00",
+        "description": "IBFT-IN: RAFSLU46"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:51:13",
+        "transaction_id": "0118dd2284d2dG3Y",
+        "amount": 20000.0,
+        "balance": "11,690,942.00",
+        "description": "IBFT-IN: RLNRG109"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:52:24",
+        "transaction_id": "0118dd229624fGEv",
+        "amount": 2000000.0,
+        "balance": "13,690,942.00",
+        "description": "IBFT-IN: MBVCB.5358118690.048632.RK9NCF86.CT tu 9912144234 VU THANH TUNG toi 000003756036 VO NGUYEN"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:52:34",
+        "transaction_id": "0118dd2298928GHB",
+        "amount": 48000.0,
+        "balance": "13,738,942.00",
+        "description": "IBFT-IN: RKNUHM33"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:52:39",
+        "transaction_id": "0118dd2299ee3GI5",
+        "amount": 100000.0,
+        "balance": "13,838,942.00",
+        "description": "IBFT-IN: RYLCVB59 FT24054470048404"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:52:56",
+        "transaction_id": "0118dd229e01cGMk",
+        "amount": 40000.0,
+        "balance": "13,878,942.00",
+        "description": "IBFT-IN: Thanh toan QR RSEESC12"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:52:57",
+        "transaction_id": "0118dd229e341GNA",
+        "amount": 100000.0,
+        "balance": "13,978,942.00",
+        "description": "IBFT-IN: Thanh toan QR RKDHFS94"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:54:54",
+        "transaction_id": "0118dd22bae1bGiY",
+        "amount": 500000.0,
+        "balance": "14,478,942.00",
+        "description": "IBFT-IN: RQ9WE603"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:55:30",
+        "transaction_id": "0118dd22c3c80Go4",
+        "amount": 50000.0,
+        "balance": "14,528,942.00",
+        "description": "IBFT-IN: RUW0XM02"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:55:37",
+        "transaction_id": "0118dd22c55f3GpS",
+        "amount": 20000.0,
+        "balance": "14,548,942.00",
+        "description": "IBFT-IN: QR - RNSYGP62"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:55:47",
+        "transaction_id": "0118dd22c7be5GsW",
+        "amount": 1000000.0,
+        "balance": "15,548,942.00",
+        "description": "IBFT-IN: Thanh toan QR RTBSCM69"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:56:03",
+        "transaction_id": "0118dd22cbd42GwP",
+        "amount": 200000.0,
+        "balance": "15,748,942.00",
+        "description": "IBFT-IN: R1BM8M10 FT24054845758440"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:56:09",
+        "transaction_id": "0118dd22cd1b6Gxi",
+        "amount": 100000.0,
+        "balance": "15,848,942.00",
+        "description": "IBFT-IN: VIETBANK;000003756036;R2HY2Q68"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:56:45",
+        "transaction_id": "0118dd22d611fH4x",
+        "amount": 3000000.0,
+        "balance": "18,848,942.00",
+        "description": "IBFT-IN: RACEKK90-230224-01:56:45 276114"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:57:18",
+        "transaction_id": "0118dd22de11bHAc",
+        "amount": 100000.0,
+        "balance": "18,948,942.00",
+        "description": "IBFT-IN: RG0FPM75 FT24054320000597"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:57:46",
+        "transaction_id": "0118dd22e4da8HFr",
+        "amount": 50000.0,
+        "balance": "18,998,942.00",
+        "description": "IBFT-IN: MBVCB.5358120858.050942.RTLKVY34.CT tu 9986400553 TRAN DIEM TRANG toi 000003756036 VO NGUYE"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:59:27",
+        "transaction_id": "0118dd22fd856HYI",
+        "amount": 250000.0,
+        "balance": "19,248,942.00",
+        "description": "IBFT-IN: RSUZ9M63 FT24054105844195"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "01:59:29",
+        "transaction_id": "0118dd22fde77HYk",
+        "amount": 20000.0,
+        "balance": "19,268,942.00",
+        "description": "IBFT-IN: IBFT RWR3EA20"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:00:25",
+        "transaction_id": "0118dd230b9edIH2",
+        "amount": 100000.0,
+        "balance": "19,368,942.00",
+        "description": "IBFT-IN: MBVCB.5358125370.051960.RMB5BM30.CT tu 9982650274 HOANG QUOC NAM toi 000003756036 VO NGUYEN"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:00:49",
+        "transaction_id": "0118dd2311a7aKBf",
+        "amount": 200000.0,
+        "balance": "19,568,942.00",
+        "description": "IBFT-IN: IBFT R3DLY620"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:01:24",
+        "transaction_id": "0118dd2319f8fLBe",
+        "amount": 250000.0,
+        "balance": "19,818,942.00",
+        "description": "IBFT-IN: Thanh toan QR RT02LX13"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:01:28",
+        "transaction_id": "0118dd231b094LCS",
+        "amount": 50000.0,
+        "balance": "19,868,942.00",
+        "description": "IBFT-IN: IBFT RKFSYM25"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:01:34",
+        "transaction_id": "0118dd231ca3fLEo",
+        "amount": 100000.0,
+        "balance": "19,968,942.00",
+        "description": "IBFT-IN: IBFT RPJ8WJ45"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:02:16",
+        "transaction_id": "0118dd2326e4eLOA",
+        "amount": 400000.0,
+        "balance": "20,368,942.00",
+        "description": "IBFT-IN: RBLJ0F46"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:02:46",
+        "transaction_id": "0118dd232e179LSY",
+        "amount": 10000.0,
+        "balance": "20,378,942.00",
+        "description": "IBFT-IN: QR - R4N2MS21"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:02:57",
+        "transaction_id": "0118dd2330beeLVf",
+        "amount": 50000.0,
+        "balance": "20,428,942.00",
+        "description": "IBFT-IN: MBVCB.5358126295.052976.R2HKGU88.CT tu 1027855341 NGUYEN THI HONG THUY toi 000003756036 VO"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:03:14",
+        "transaction_id": "0118dd2334f77LZh",
+        "amount": 20000.0,
+        "balance": "20,448,942.00",
+        "description": "IBFT-IN: IBFT RQJJXL87"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:03:19",
+        "transaction_id": "0118dd233612eLav",
+        "amount": 20000.0,
+        "balance": "20,468,942.00",
+        "description": "IBFT-IN: VIETBANK;000003756036;RSBNHF96"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:04:07",
+        "transaction_id": "0118dd2341d6cLiK",
+        "amount": 20000.0,
+        "balance": "20,488,942.00",
+        "description": "IBFT-IN: R9HXMC04"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:06:28",
+        "transaction_id": "0118dd2364453M2I",
+        "amount": -20400000.0,
+        "balance": "88,942.00",
+        "description": "QR-IBFT: VO NGUYEN TUYET NHI CHUYEN TIEN"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:06:28",
+        "transaction_id": "0118dd2364453M2I",
+        "amount": -5000.0,
+        "balance": "83,942.00",
+        "description": "Phi dich vu thanh toan chuyen tien"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:06:28",
+        "transaction_id": "0118dd2364453M2I",
+        "amount": -500.0,
+        "balance": "83,442.00",
+        "description": "THUE GTGT 10%"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:09:23",
+        "transaction_id": "0118dd238f16dMVG",
+        "amount": 100000.0,
+        "balance": "183,442.00",
+        "description": "IBFT-IN: 53728518027-0787353646-RPMEPB38"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:09:31",
+        "transaction_id": "0118dd2390f93MX8",
+        "amount": 450000.0,
+        "balance": "633,442.00",
+        "description": "IBFT-IN: RNZUDQ40"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:09:57",
+        "transaction_id": "0118dd2397701Mcc",
+        "amount": 500000.0,
+        "balance": "1,133,442.00",
+        "description": "IBFT-IN: MBVCB.5358124888.055810.RBJSSK05.CT tu 1029798619 LE MINH THOAI toi 000003756036 VO NGUYEN"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:10:37",
+        "transaction_id": "0118dd23a104dMij",
+        "amount": 5000000.0,
+        "balance": "6,133,442.00",
+        "description": "IBFT-IN: RAQ38A35"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:10:49",
+        "transaction_id": "0118dd23a40c8MkF",
+        "amount": 200000.0,
+        "balance": "6,333,442.00",
+        "description": "IBFT-IN: RHYW9J26"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:11:18",
+        "transaction_id": "0118dd23ab0a3Mpm",
+        "amount": 20000.0,
+        "balance": "6,353,442.00",
+        "description": "IBFT-IN: R2JRT929 FT24054367351956"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:11:49",
+        "transaction_id": "0118dd23b2a69Mta",
+        "amount": 200000.0,
+        "balance": "6,553,442.00",
+        "description": "IBFT-IN: RC0B9N46 FT24054554160020"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:12:02",
+        "transaction_id": "0118dd23b5df0MwS",
+        "amount": 100000.0,
+        "balance": "6,653,442.00",
+        "description": "IBFT-IN: MBVCB.5358135537.056556.RRYSKF96.CT tu 9957999999 TRAN DUC VUONG toi 000003756036 VO NGUYEN"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:14:47",
+        "transaction_id": "0118dd23de2d0NLi",
+        "amount": 1000000.0,
+        "balance": "7,653,442.00",
+        "description": "IBFT-IN: RNN3FX00 FT24054015960826"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:17:05",
+        "transaction_id": "0118dd23ffc08Nj7",
+        "amount": 100000.0,
+        "balance": "7,753,442.00",
+        "description": "IBFT-IN: Thanh toan QR R1VZW975"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:17:15",
+        "transaction_id": "0118dd2402571NmM",
+        "amount": 500000.0,
+        "balance": "8,253,442.00",
+        "description": "IBFT-IN: Thanh toan QR RGJJQH51"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:18:07",
+        "transaction_id": "0118dd240ee31NvJ",
+        "amount": 200000.0,
+        "balance": "8,453,442.00",
+        "description": "IBFT-IN: VIETBANK;000003756036;RGUMFT41"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:18:37",
+        "transaction_id": "0118dd2416511O0U",
+        "amount": 25000.0,
+        "balance": "8,478,442.00",
+        "description": "IBFT-IN: Thanh toan QR R91TBY40"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:18:58",
+        "transaction_id": "0118dd241b6f9O4k",
+        "amount": 50000.0,
+        "balance": "8,528,442.00",
+        "description": "IBFT-IN: MBVCB.5358138011.058974.R2DUZA63.CT tu 9392427531 LE THANH TU toi 000003756036 VO NGUYEN TU"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:19:10",
+        "transaction_id": "0118dd241e6afO6q",
+        "amount": 20000.0,
+        "balance": "8,548,442.00",
+        "description": "IBFT-IN: RSC4QN16"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:19:21",
+        "transaction_id": "0118dd2421188O9o",
+        "amount": 100000.0,
+        "balance": "8,648,442.00",
+        "description": "IBFT-IN: Thanh toan QR RZDQ0V83"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:19:55",
+        "transaction_id": "0118dd2429563OFg",
+        "amount": 100000.0,
+        "balance": "8,748,442.00",
+        "description": "IBFT-IN: Thanh toan QR RSSBFH83"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:21:38",
+        "transaction_id": "0118dd244267fOYO",
+        "amount": 600000.0,
+        "balance": "9,348,442.00",
+        "description": "IBFT-IN: Thanh toan QR RQ3YG635"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:21:40",
+        "transaction_id": "0118dd2442f00OYs",
+        "amount": 500000.0,
+        "balance": "9,848,442.00",
+        "description": "IBFT-IN: QR - RHTBL695"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:21:55",
+        "transaction_id": "0118dd2446a03OcH",
+        "amount": 20000.0,
+        "balance": "9,868,442.00",
+        "description": "IBFT-IN: Thanh toan QR RGESNH59"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:22:38",
+        "transaction_id": "0118dd24511cfOjD",
+        "amount": 100000.0,
+        "balance": "9,968,442.00",
+        "description": "IBFT-IN: RBUMKK97 FT24054823359236"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:23:09",
+        "transaction_id": "0118dd2458b58OoG",
+        "amount": 20000.0,
+        "balance": "9,988,442.00",
+        "description": "IBFT-IN: MBVCB.5358132362.060541.RGQNN682.CT tu 0351000766775 LE THI PHUONG THAO toi 000003756036 VO"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:23:54",
+        "transaction_id": "0118dd2463c1bOwL",
+        "amount": 500000.0,
+        "balance": "10,488,442.00",
+        "description": "IBFT-IN: RUHSTX81"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:24:26",
+        "transaction_id": "0118dd246b85bP1V",
+        "amount": 100000.0,
+        "balance": "10,588,442.00",
+        "description": "IBFT-IN: MBVCB.5358140032.060920.R2XJUQ59.CT tu 9779888440 TRAN MINH TAM toi 000003756036 VO NGUYEN"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:24:36",
+        "transaction_id": "0118dd246de17P37",
+        "amount": 100000.0,
+        "balance": "10,688,442.00",
+        "description": "IBFT-IN: Thanh toan QR RAASNR73"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:24:49",
+        "transaction_id": "0118dd247134bP5R",
+        "amount": 300000.0,
+        "balance": "10,988,442.00",
+        "description": "IBFT-IN: RBZPPN07 FT24054673809170"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:26:01",
+        "transaction_id": "0118dd2482b27PIZ",
+        "amount": 20000.0,
+        "balance": "11,008,442.00",
+        "description": "IBFT-IN: RWNSME52 FT24054352740015"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:26:52",
+        "transaction_id": "0118dd248f26ePRg",
+        "amount": 1000000.0,
+        "balance": "12,008,442.00",
+        "description": "IBFT-IN: MBVCB.5358140885.061770.REXSKT31.CT tu 7667666666 LY THI TIEN toi 000003756036 VO NGUYEN TU"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:27:10",
+        "transaction_id": "0118dd2493795PUA",
+        "amount": 100000.0,
+        "balance": "12,108,442.00",
+        "description": "IBFT-IN: MBVCB.5358140960.061842.RRRZUJ44.CT tu 1020278860 TRAN THI MY TIEN toi 000003756036 VO NGUY"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:27:57",
+        "transaction_id": "0118dd249f160Pbl",
+        "amount": 30000.0,
+        "balance": "12,138,442.00",
+        "description": "IBFT-IN: RSXEVJ09"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:28:00",
+        "transaction_id": "0118dd249fb64Pcy",
+        "amount": 1000000.0,
+        "balance": "13,138,442.00",
+        "description": "IBFT-IN: Thanh toan QR RLDATH23"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:28:39",
+        "transaction_id": "0118dd24a9414Pjz",
+        "amount": 200000.0,
+        "balance": "13,338,442.00",
+        "description": "IBFT-IN: Thanh toan QR RGVTTF95"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:29:02",
+        "transaction_id": "0118dd24aed92Poa",
+        "amount": 200000.0,
+        "balance": "13,538,442.00",
+        "description": "IBFT-IN: IBFT RQULLZ36"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:30:13",
+        "transaction_id": "0118dd24c03e9Q0g",
+        "amount": 20000.0,
+        "balance": "13,558,442.00",
+        "description": "IBFT-IN: MBVCB.5358142084.062877.R3JLDY53.CT tu 0351000766775 LE THI PHUONG THAO toi 000003756036 VO"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:30:14",
+        "transaction_id": "0118dd24c0658Q13",
+        "amount": 100000.0,
+        "balance": "13,658,442.00",
+        "description": "IBFT-IN: Thanh toan QR RXA4XW18"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:30:37",
+        "transaction_id": "0118dd24c61eaQ5D",
+        "amount": 100000.0,
+        "balance": "13,758,442.00",
+        "description": "IBFT-IN: MBVCB.5358142219.063000.RUBMVP25.CT tu 0231000629299 NGUYEN XUAN THANG toi 000003756036 VO"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:30:53",
+        "transaction_id": "0118dd24c9ecbQ8v",
+        "amount": 50000.0,
+        "balance": "13,808,442.00",
+        "description": "IBFT-IN: Thanh toan QR RJZZT331"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:34:37",
+        "transaction_id": "0118dd2500a1cQkT",
+        "amount": 30000.0,
+        "balance": "13,838,442.00",
+        "description": "IBFT-IN: RBSX8F94"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:35:27",
+        "transaction_id": "0118dd250ce35Qrp",
+        "amount": 50000.0,
+        "balance": "13,888,442.00",
+        "description": "IBFT-IN: MBVCB.5358143934.064574.RPCB1M43.CT tu 9779888440 TRAN MINH TAM toi 000003756036 VO NGUYEN"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:36:10",
+        "transaction_id": "0118dd2517707R1u",
+        "amount": 200000.0,
+        "balance": "14,088,442.00",
+        "description": "IBFT-IN: QR - RR4HR519"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:36:32",
+        "transaction_id": "0118dd251cb57R8w",
+        "amount": 200000.0,
+        "balance": "14,288,442.00",
+        "description": "IBFT-IN: VIETBANK;000003756036;RVHYJW42"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:36:45",
+        "transaction_id": "0118dd251fd08RBF",
+        "amount": 700000.0,
+        "balance": "14,988,442.00",
+        "description": "IBFT-IN: Thanh toan QR RRSN1U26"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:36:55",
+        "transaction_id": "0118dd25225deRDR",
+        "amount": 20000.0,
+        "balance": "15,008,442.00",
+        "description": "IBFT-IN: Thanh toan QR RM4EX828"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:40:32",
+        "transaction_id": "0118dd255746cRnz",
+        "amount": 200000.0,
+        "balance": "15,208,442.00",
+        "description": "IBFT-IN: RDMFVV18"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:41:00",
+        "transaction_id": "0118dd255e22dRti",
+        "amount": 300000.0,
+        "balance": "15,508,442.00",
+        "description": "IBFT-IN: Thanh toan QR RFJJTB58"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:41:06",
+        "transaction_id": "0118dd255fa43RvE",
+        "amount": 200000.0,
+        "balance": "15,708,442.00",
+        "description": "IBFT-IN: RPKSMC05 FT24054689590460"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:42:18",
+        "transaction_id": "0118dd257145bS7W",
+        "amount": 30000.0,
+        "balance": "15,738,442.00",
+        "description": "IBFT-IN: RX9E0K68 FT24054965986288"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:43:16",
+        "transaction_id": "0118dd257f739SJd",
+        "amount": 100000.0,
+        "balance": "15,838,442.00",
+        "description": "IBFT-IN: MBVCB.5358147372.067103.RQE0YP54.CT tu 9779888440 TRAN MINH TAM toi 000003756036 VO NGUYEN"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:43:56",
+        "transaction_id": "0118dd258918bSRp",
+        "amount": 357000.0,
+        "balance": "16,195,442.00",
+        "description": "IBFT-IN: RKHNDB31 FT24054689602123"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:44:07",
+        "transaction_id": "0118dd258bc2bSTH",
+        "amount": 339000.0,
+        "balance": "16,534,442.00",
+        "description": "IBFT-IN: RPJGGA99 FT24054795622183"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "02:45:30",
+        "transaction_id": "0118dd25a001aSga",
+        "amount": 200000.0,
+        "balance": "16,734,442.00",
+        "description": "IBFT-IN: RVF7DE57"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:31:56",
+        "transaction_id": "0118dd6cf26874lZ",
+        "amount": -58000.0,
+        "balance": "16,676,442.00",
+        "description": "QR-IBFT: VO NGUYEN TUYET NHI CHUYEN TIEN"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:35:05",
+        "transaction_id": "0118dd6d20a6a5T1",
+        "amount": 75000.0,
+        "balance": "16,751,442.00",
+        "description": "IBFT-IN: RAAF5609"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:36:36",
+        "transaction_id": "0118dd6d36a575sA",
+        "amount": 15000.0,
+        "balance": "16,766,442.00",
+        "description": "IBFT-IN: Thanh toan QR RAAOOE27"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:36:50",
+        "transaction_id": "0118dd6d3a4a25xu",
+        "amount": 10000.0,
+        "balance": "16,776,442.00",
+        "description": "IBFT-IN: RAAKF354"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:37:20",
+        "transaction_id": "0118dd6d4196a645",
+        "amount": 1000000.0,
+        "balance": "17,776,442.00",
+        "description": "IBFT-IN: MBVCB.5364421659.067173.RAAJ0H07.CT tu 9327930903 CAO VIET THANG toi 000003756036 VO NGUYEN"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:37:37",
+        "transaction_id": "0118dd6d45975681",
+        "amount": 300000.0,
+        "balance": "18,076,442.00",
+        "description": "IBFT-IN: RAAFFZ30 FT24055644777562"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:37:44",
+        "transaction_id": "0118dd6d474ac6Aq",
+        "amount": 200000.0,
+        "balance": "18,276,442.00",
+        "description": "IBFT-IN: RAAA5D60, ma GD 195453440"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:37:48",
+        "transaction_id": "0118dd6d485306Cj",
+        "amount": 100000.0,
+        "balance": "18,376,442.00",
+        "description": "IBFT-IN: Thanh toan QR RAADUW49"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:37:50",
+        "transaction_id": "0118dd6d48b5b6DA",
+        "amount": 75000.0,
+        "balance": "18,451,442.00",
+        "description": "IBFT-IN: RAAK1976"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:38:49",
+        "transaction_id": "0118dd6d5739a6VP",
+        "amount": 200000.0,
+        "balance": "18,651,442.00",
+        "description": "IBFT-IN: Thanh toan QR RAAG4G28"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:39:10",
+        "transaction_id": "0118dd6d5c5ca6b4",
+        "amount": 408000.0,
+        "balance": "19,059,442.00",
+        "description": "IBFT-IN: Thanh toan QR RAAKK386"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:39:20",
+        "transaction_id": "0118dd6d5ee366fJ",
+        "amount": 150000.0,
+        "balance": "19,209,442.00",
+        "description": "IBFT-IN: MBVCB.5364423470.069198.RAAPEY47.CT tu 1028889067 LE PHUC THANH toi 000003756036 VO NGUYEN"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:39:23",
+        "transaction_id": "0118dd6d5f81f6gK",
+        "amount": 100000.0,
+        "balance": "19,309,442.00",
+        "description": "IBFT-IN: RAADLT10"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:39:36",
+        "transaction_id": "0118dd6d62cc06jT",
+        "amount": 10000.0,
+        "balance": "19,319,442.00",
+        "description": "IBFT-IN: Thanh toan QR RAAHUK16"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:39:59",
+        "transaction_id": "0118dd6d685416qW",
+        "amount": 20000.0,
+        "balance": "19,339,442.00",
+        "description": "IBFT-IN: RAANG798 FT24055438027000"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:40:15",
+        "transaction_id": "0118dd6d6c3fe6uq",
+        "amount": 50000.0,
+        "balance": "19,389,442.00",
+        "description": "IBFT-IN: QR - RAACT014"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:40:16",
+        "transaction_id": "0118dd6d6c9336wn",
+        "amount": 1500000.0,
+        "balance": "20,889,442.00",
+        "description": "IBFT-IN: RAAN6L90"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:40:35",
+        "transaction_id": "0118dd6d7101672M",
+        "amount": 50000.0,
+        "balance": "20,939,442.00",
+        "description": "IBFT-IN: Thanh toan QR RAAD6Y66"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:40:43",
+        "transaction_id": "0118dd6d72ef6755",
+        "amount": 200000.0,
+        "balance": "21,139,442.00",
+        "description": "IBFT-IN: Thanh toan QR RAAB9990"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:40:48",
+        "transaction_id": "0118dd6d7434f76X",
+        "amount": 20000.0,
+        "balance": "21,159,442.00",
+        "description": "IBFT-IN: QR - RAACRU76"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:41:28",
+        "transaction_id": "0118dd6d7decd7IA",
+        "amount": 300000.0,
+        "balance": "21,459,442.00",
+        "description": "IBFT-IN: IBFT RAADKJ04"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:42:12",
+        "transaction_id": "0118dd6d88ba87Tv",
+        "amount": 300000.0,
+        "balance": "21,759,442.00",
+        "description": "IBFT-IN: RAABWE76"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:44:02",
+        "transaction_id": "0118dd6da39f97lG",
+        "amount": -21600000.0,
+        "balance": "159,442.00",
+        "description": "QR-IBFT: VO NGUYEN TUYET NHI CHUYEN TIEN"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:44:02",
+        "transaction_id": "0118dd6da39f97lG",
+        "amount": -5000.0,
+        "balance": "154,442.00",
+        "description": "Phi dich vu thanh toan chuyen tien"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:44:02",
+        "transaction_id": "0118dd6da39f97lG",
+        "amount": -500.0,
+        "balance": "153,942.00",
+        "description": "THUE GTGT 10%"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:45:50",
+        "transaction_id": "0118dd6dbe0e4899",
+        "amount": 100000.0,
+        "balance": "253,942.00",
+        "description": "IBFT-IN: IBFT RAAN1R59"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:46:05",
+        "transaction_id": "0118dd6dc1b888E8",
+        "amount": 500000.0,
+        "balance": "753,942.00",
+        "description": "IBFT-IN: RAANMU64 FT24055859801004"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:46:29",
+        "transaction_id": "0118dd6dc77c28KO",
+        "amount": 220000.0,
+        "balance": "973,942.00",
+        "description": "IBFT-IN: RAAM5F71"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:46:42",
+        "transaction_id": "0118dd6dcaa3f8OD",
+        "amount": 150000.0,
+        "balance": "1,123,942.00",
+        "description": "IBFT-IN: RAACTU34"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:47:44",
+        "transaction_id": "0118dd6dd9e278cd",
+        "amount": 500000.0,
+        "balance": "1,623,942.00",
+        "description": "IBFT-IN: MBVCB.5364442326.080192.RAAEBU19.CT tu 1044819715 TRAN THI MINH DIEU toi 000003756036 VO NG"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:47:48",
+        "transaction_id": "0118dd6ddae828e6",
+        "amount": 1000000.0,
+        "balance": "2,623,942.00",
+        "description": "IBFT-IN: MBVCB.5364448110.080289.RAAKIX07.CT tu 9327930903 CAO VIET THANG toi 000003756036 VO NGUYEN"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:48:26",
+        "transaction_id": "0118dd6de42408p3",
+        "amount": 200000.0,
+        "balance": "2,823,942.00",
+        "description": "IBFT-IN: MBVCB.5364448661.081001.RAAEGG68.CT tu 9879757930 LE QUANG DUY toi 000003756036 VO NGUYEN T"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:48:34",
+        "transaction_id": "0118dd6de5f988qZ",
+        "amount": 50000.0,
+        "balance": "2,873,942.00",
+        "description": "IBFT-IN: Thanh toan QR RAAK8345"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:48:55",
+        "transaction_id": "0118dd6deb18d8ul",
+        "amount": 100000.0,
+        "balance": "2,973,942.00",
+        "description": "IBFT-IN: QR - RAAGHW17"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:49:17",
+        "transaction_id": "0118dd6df08e88yZ",
+        "amount": 40000.0,
+        "balance": "3,013,942.00",
+        "description": "IBFT-IN: RAAMC081"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:49:49",
+        "transaction_id": "0118dd6df844396D",
+        "amount": 100000.0,
+        "balance": "3,113,942.00",
+        "description": "IBFT-IN: Thanh toan QR RAAA5R81"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:50:15",
+        "transaction_id": "0118dd6dfeb029CC",
+        "amount": 100000.0,
+        "balance": "3,213,942.00",
+        "description": "IBFT-IN: Thanh toan QR RAANWD63"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:50:20",
+        "transaction_id": "0118dd6dffd9c9Da",
+        "amount": 100000.0,
+        "balance": "3,313,942.00",
+        "description": "IBFT-IN: VIETBANK;000003756036;RAAOCY78"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:52:30",
+        "transaction_id": "0118dd6e1f9349jB",
+        "amount": 2000000.0,
+        "balance": "5,313,942.00",
+        "description": "IBFT-IN: RAAEM058"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:52:35",
+        "transaction_id": "0118dd6e20c6e9nm",
+        "amount": 1000000.0,
+        "balance": "6,313,942.00",
+        "description": "IBFT-IN: RAAISD49 FT24055348811108"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:52:35",
+        "transaction_id": "0118dd6e20e509od",
+        "amount": 400000.0,
+        "balance": "6,713,942.00",
+        "description": "IBFT-IN: Thanh toan QR RAANW832"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:52:54",
+        "transaction_id": "0118dd6e258daA0K",
+        "amount": 50000.0,
+        "balance": "6,763,942.00",
+        "description": "IBFT-IN: Thanh toan QR RAAON423"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:53:06",
+        "transaction_id": "0118dd6e2858fA4C",
+        "amount": 300000.0,
+        "balance": "7,063,942.00",
+        "description": "IBFT-IN: QR - RAAI1Z69"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:53:21",
+        "transaction_id": "0118dd6e2c34eA8p",
+        "amount": 10000.0,
+        "balance": "7,073,942.00",
+        "description": "IBFT-IN: Thanh toan QR RAAEDG45"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:53:35",
+        "transaction_id": "0118dd6e2fa59ABl",
+        "amount": 10000.0,
+        "balance": "7,083,942.00",
+        "description": "IBFT-IN: IBFT RAABQO61"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:53:48",
+        "transaction_id": "0118dd6e32b31AEI",
+        "amount": 140000.0,
+        "balance": "7,223,942.00",
+        "description": "IBFT-IN: RAAKFA05"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:54:26",
+        "transaction_id": "0118dd6e3c146AR3",
+        "amount": 100000.0,
+        "balance": "7,323,942.00",
+        "description": "IBFT-IN: VIETBANK;000003756036;RAAD5Q54"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:54:37",
+        "transaction_id": "0118dd6e3ea36ATd",
+        "amount": 200000.0,
+        "balance": "7,523,942.00",
+        "description": "IBFT-IN: RAAEPM70"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:55:00",
+        "transaction_id": "0118dd6e44503AXk",
+        "amount": 140000.0,
+        "balance": "7,663,942.00",
+        "description": "IBFT-IN: RAAEY850"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:55:08",
+        "transaction_id": "0118dd6e46340AYn",
+        "amount": 1578000.0,
+        "balance": "9,241,942.00",
+        "description": "IBFT-IN: MBVCB.5364458962.088491.RAAA5818.CT tu 9778899445 NGUYEN VANHOAN THUAN toi 000003756036 VO"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:55:25",
+        "transaction_id": "0118dd6e4a5eeAdM",
+        "amount": 50000.0,
+        "balance": "9,291,942.00",
+        "description": "IBFT-IN: MBVCB.5364455047.088791.RAADS781.CT tu 1040024127 PHAN TUAN VI toi 000003756036 VO NGUYEN T"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:55:50",
+        "transaction_id": "0118dd6e506e7Ak6",
+        "amount": 100000.0,
+        "balance": "9,391,942.00",
+        "description": "IBFT-IN: RAADB465 FT24055259826099"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:55:52",
+        "transaction_id": "0118dd6e5113bAm2",
+        "amount": 500000.0,
+        "balance": "9,891,942.00",
+        "description": "IBFT-IN: MBVCB.5364459541.089329.RAAGH652.CT tu 1031455731 NGUYEN PHU VINH toi 000003756036 VO NGUYE"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:56:10",
+        "transaction_id": "0118dd6e557dfAni",
+        "amount": 50000.0,
+        "balance": "9,941,942.00",
+        "description": "IBFT-IN: 53779954883-0935404247-RAAANU03"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:56:56",
+        "transaction_id": "0118dd6e60a9fAvn",
+        "amount": 50000.0,
+        "balance": "9,991,942.00",
+        "description": "IBFT-IN: RAALBE88 FT24055244082444"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:57:27",
+        "transaction_id": "0118dd6e681d7Azs",
+        "amount": 300000.0,
+        "balance": "10,291,942.00",
+        "description": "IBFT-IN: RAAPH584"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:57:50",
+        "transaction_id": "0118dd6e6dc1fB2S",
+        "amount": 130000.0,
+        "balance": "10,421,942.00",
+        "description": "IBFT-IN: RAAJG128"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:58:04",
+        "transaction_id": "0118dd6e712fbB4h",
+        "amount": 1000000.0,
+        "balance": "11,421,942.00",
+        "description": "IBFT-IN: Thanh toan QR RAAEFK10"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:58:06",
+        "transaction_id": "0118dd6e719a2B5M",
+        "amount": 200000.0,
+        "balance": "11,621,942.00",
+        "description": "IBFT-IN: IBFT LE VAN TUNG RAAGNR14"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:58:07",
+        "transaction_id": "0118dd6e72018B5o",
+        "amount": 200000.0,
+        "balance": "11,821,942.00",
+        "description": "IBFT-IN: QR - RAAF1I77"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:58:12",
+        "transaction_id": "0118dd6e7327fB81",
+        "amount": 100000.0,
+        "balance": "11,921,942.00",
+        "description": "IBFT-IN: Thanh toan QR RAABYI16"
+    },
+    {
+        "date": "23-02-2024",
+        "time": "23:59:46",
+        "transaction_id": "0118dd6e8a193BPq",
+        "amount": 50000.0,
+        "balance": "11,971,942.00",
+        "description": "IBFT-IN: IBFT RAAISO52"
+    }
+]
