@@ -185,13 +185,14 @@ class VietBank:
         if 'Tên truy cập chưa đăng ký sử dụng!' in response.text:
             return {
                 'success': False,
-                'message': 'Tên truy cập chưa đăng ký sử dụng!'
+                'message': 'Tên truy cập chưa đăng ký sử dụng!',
+                'code': 444
             }
         elif 'ibk/vn/acctsum' not in response.text:
             return {
                 'success': False,
                 'message': 'Đăng nhập không thành công!',
-                'code': 4011
+                'code': 444
             }
         url = "https://online.vietbank.com.vn/ibk/vn/acctsum/"
 
@@ -217,14 +218,14 @@ class VietBank:
             return {
                 'success': False,
                 'message': 'Đăng nhập không thành công!',
-                'code': 4012
+                'code': 400
             }
 
         if 'Tài khoản thanh toán' not in response.text:
             return {
                 'success': False,
                 'message': 'Đăng nhập không thành công!',
-                'code': 4013
+                'code': 400
             }
         else:
             account_number = self.extract_account_number(response.text)
