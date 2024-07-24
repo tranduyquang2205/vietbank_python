@@ -1,0 +1,38 @@
+[
+    {
+        "Name": "JSESSIONID",
+        "Value": "8C377F14C80AFBBAC53BAEAE6E31822C",
+        "Domain": "online.vietbank.com.vn",
+        "Path": "/",
+        "Expires": null,
+        "Secure": false,
+        "HttpOnly": true
+    },
+    {
+        "Name": "TS223565ec029",
+        "Value": "080d8a293aab2800cd216b9914a918a1d606e7d96ff1346857adcec1097017a665eccfa9cab386c4160a7e5fe9e247b9",
+        "Domain": "online.vietbank.com.vn",
+        "Path": "/",
+        "Expires": 1721811904,
+        "Secure": false,
+        "HttpOnly": false
+    },
+    {
+        "Name": "TS6d401a3e027",
+        "Value": "080d8a293aab2000eb517d556686f73df6b47de29269cc60c4c4c60e13b57919abbe8dc2eae3c7420856e9983d1130008569e906e87ab8f5425553290be78be4f3dda563079b8a8cbd2d1ad101e0b52c15f1c613c7ab38899dee898566353d6a",
+        "Domain": "online.vietbank.com.vn",
+        "Path": "/",
+        "Expires": null,
+        "Secure": false,
+        "HttpOnly": false
+    },
+    {
+        "Name": "TS0124dfd7",
+        "Value": "0128f04d0b8c5206468483a56f9f5fb15e91aeb8aac8d9b4eedba9e72bb2fa54c645f5abeba8711eaf083da57b2d267327ea24c12787613e2d089df7593dabe023dc216823",
+        "Domain": ".online.vietbank.com.vn",
+        "Path": "/",
+        "Expires": null,
+        "Secure": false,
+        "HttpOnly": false
+    }
+]

@@ -6,13 +6,92 @@ from requests.cookies import RequestsCookieJar
 import base64
 import re
 import urllib.parse
-
+from bs4 import BeautifulSoup
+import os 
 class VietBank:
-    def __init__(self):
+    def __init__(self,username, password, account_number):
         self.keyanticaptcha = "b8246038ce1540888c4314a6c043dcae"
+        self.file = f"db/users/{account_number}.json"
+        self.cookies_file = f"db/cookies/{account_number}.json"
         self.cookies = RequestsCookieJar()
         self.session = requests.Session()
-        self.accounts_list = []
+        self.load_cookies()
+        self.accounts_list = {}
+        
+        self.username = username
+        self.password = password
+        self.account_number = account_number
+        if not os.path.exists(self.file):
+            self.username = username
+            self.password = password
+            self.account_number = account_number
+            self.is_login = False
+            self.time_login = time.time()
+            self.save_data()
+        else:
+            self.parse_data()
+            self.username = username
+            self.password = password
+            self.account_number = account_number
+            self.save_data()
+    def save_data(self):
+        data = {
+            'username': self.username,
+            'password': self.password,
+            'account_number': self.account_number,
+            'time_login': self.time_login,
+            'is_login': self.is_login
+        }
+        with open(f"db/users/{self.account_number}.json", 'w') as file:
+            json.dump(data, file)
+    def parse_data(self):
+        with open(f"db/users/{self.account_number}.json", 'r') as file:
+            data = json.load(file)
+            self.username = data['username']
+            self.password = data['password']
+            self.account_number = data['account_number']
+            self.time_login = data['time_login']
+            self.is_login = data['is_login']
+
+    def save_cookies(self,cookie_jar):
+        # with open(self.cookies_file, 'w') as f:
+        #     json.dump(cookie_jar.get_dict(), f)
+        cookies = []
+        for cookie in self.session.cookies:
+            cookies.append({
+                'Name': cookie.name,
+                'Value': cookie.value,
+                'Domain': cookie.domain,
+                'Path': cookie.path,
+                'Expires': cookie.expires,
+                'Secure': cookie.secure,
+                'HttpOnly': cookie.has_nonstandard_attr('HttpOnly')
+            })
+        with open(self.cookies_file, 'w') as file:
+            json.dump(cookies, file, indent=4)
+    def reset_cookies(self):
+        # with open(self.cookies_file, 'w') as f:
+        #     json.dump(cookie_jar.get_dict(), f)
+        self.init_data()
+        cookies = []
+        with open(self.cookies_file, 'w') as file:
+            json.dump(cookies, file, indent=4)
+        self.session.cookies.clear()
+    def load_cookies(self):
+        # try:
+        #     with open(self.cookies_file, 'r') as f:
+        #         cookies = json.load(f)
+        #         self.cookies = cookies
+        #         return
+        # except (FileNotFoundError, json.decoder.JSONDecodeError):
+        #     return requests.cookies.RequestsCookieJar()
+        try:
+            with open(self.cookies_file, 'r') as file:
+                cookies = json.load(file)
+                for cookie in cookies:
+                    self.session.cookies.set(cookie['Name'], cookie['Value'])
+        except (FileNotFoundError, json.decoder.JSONDecodeError):
+            return requests.cookies.RequestsCookieJar()
     def extract_text_from_td(self,td_string):
         return re.sub(r"<[^>]*>", "", td_string).strip()
     def extract_balance_from_td(self,td_string):
@@ -20,34 +99,41 @@ class VietBank:
         balances = re.findall(balance_pattern, td_string)
         formatted_balances = [balance.split('.')[0].replace(',', '') for balance in balances]
         return formatted_balances[0]
+    def extract_account_number(self,html_content):
+        soup = BeautifulSoup(html_content, 'html.parser')
+        ac_element = soup.find('span', class_='me-2')
+        if ac_element:
+            ac_text = ac_element.get_text(strip=True)
+        return (ac_text.strip()) if ac_element else None
+    def extract_balance(self,html_content):
+        soup = BeautifulSoup(html_content, 'html.parser')
+        ac_element = soup.find('span', class_='me-2 text-blue')
+        if ac_element:
+            ac_text = ac_element.get_text(strip=True)
+        return float(ac_text.strip().replace(',','.')) if ac_element else None
     def extract_transaction_history(self,html_string):
-        html_string = html_string.replace('undefined','').replace(' >','>').replace('< ','<')
-        # Define regex pattern to extract transaction rows
-        transaction_pattern = r"<tr><td rowspan='2'>(.*?)<br>(.*?)</td><td>(.*?)</td><td>(.*?)</td><td>(.*?)</td><td>(.*?)</td></tr><tr><td colspan='5' style='text-align:center;'>(.*?)</td></tr>"
-        # Find all transaction rows
-        transactions = re.findall(transaction_pattern, html_string, re.DOTALL)
+        html_content = html_string.replace('undefined','').replace(' >','>').replace('< ','<')
+        soup = BeautifulSoup(html_content, 'html.parser')
+        transactions = []
 
-        # Process each transaction row to create a dictionary
-        transaction_history = []
-        for transaction in transactions:
-            debit = transaction[3].strip() if transaction[3].strip() != '&nbsp;' else '0.00'
-            credit = transaction[4].strip() if transaction[4].strip() != '&nbsp;' else '0.00'
-
-            # Convert debit and credit to a unified amount field
-            amount = float(credit.replace(',', '')) - float(debit.replace(',', ''))
-
-            transaction_dict = {
-                "date": transaction[0].strip(),
-                "time": transaction[1].strip(),
-                "transaction_id": transaction[2].strip(),
-                "amount": amount,
-                "balance": transaction[5].strip(),
-                "description": transaction[6].strip()
+        items = soup.find_all('div', class_='item-account-statement')
+        for item in items:
+            date_time = item.find('p', class_='mb-2 fs-small').text.strip()
+            description = item.find('p', class_='fw-bold m-0 text-break').text.strip()
+            transaction_code = item.find('span', class_='fw-bold').text.strip()
+            amount = item.find('p', class_='text-danger m-0 text-end fw-bold').text.strip()
+            
+            transaction = {
+                'date_time': date_time,
+                'transaction_id': transaction_code,
+                'remark': description,
+                'amount': amount
             }
-            transaction_history.append(transaction_dict)
+            transactions.append(transaction)
 
-        return transaction_history
-    def login(self, username, password):
+        return transactions
+    def login(self):
+        self.session = requests.Session()
         url = "https://online.vietbank.com.vn/ibk/vn/login/index.jsp"
 
         payload = {}
@@ -71,10 +157,11 @@ class VietBank:
        
         base64_captcha_img = self.getCaptcha()
         task = self.createTaskCaptcha(base64_captcha_img)
-        captchaText = self.checkProgressCaptcha(json.loads(task)['taskId'])
-        url = "https://online.vietbank.com.vn/ibk/vn/login/verify.jsp"
+        captchaText = json.loads(task)['prediction']
+        # print(captchaText)
+        url = "https://online.vietbank.com.vn/ibk/vn/login/verify_.jsp"
 
-        payload = 'txtun='+username+'&txtpw='+urllib.parse.quote(password)+'&txtSessID='+captchaText+'&checkbox=on'
+        payload = 'txtun='+self.username+'&txtpw='+urllib.parse.quote(self.password)+'&txtSessID='+captchaText
         headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.100.0',
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
@@ -94,6 +181,7 @@ class VietBank:
         }
 
         response = self.session.post(url, headers=headers, data=payload)
+        
         if 'Tên truy cập chưa đăng ký sử dụng!' in response.text:
             return {
                 'success': False,
@@ -123,6 +211,8 @@ class VietBank:
         'Cache-Control': 'no-cache'
         }
         response = self.session.get(url, headers=headers, data=payload)
+        self.save_cookies(self.session.cookies)
+        # print(response.text)
         if 'Đăng nhập không thành công' in response.text:
             return {
                 'success': False,
@@ -130,30 +220,23 @@ class VietBank:
                 'code': 4012
             }
 
-        if 'Quản lý tài khoản' not in response.text:
+        if 'Tài khoản thanh toán' not in response.text:
             return {
                 'success': False,
                 'message': 'Đăng nhập không thành công!',
                 'code': 4013
             }
         else:
-            pattern = r"<tbody>.*<tr>(.*?)\n.*</tbody>"
-            tr_elements = re.findall(pattern, response.text, re.DOTALL)
-            accounts = []
-            for tr in tr_elements:
-                # Extract all <td> elements within the <tr>
-                td_elements = re.findall(r"<td.*?>(.*?)</td>", tr, re.DOTALL)
-
-                # Create a dictionary for the row data
-                row_data = {
-                    "account_number": self.extract_text_from_td(td_elements[0]),
-                    "balance": self.extract_balance_from_td(td_elements[1]),
-                    "status": self.extract_text_from_td(td_elements[5])
-                }
-
-                # Add the row data to the extracted data list
-                accounts.append(row_data)
-                self.accounts_list = accounts
+            account_number = self.extract_account_number(response.text)
+            balance = self.extract_balance(response.text)
+            accounts = {
+                "account_number": account_number,
+                "balance": balance
+            }
+            self.accounts_list = accounts
+            self.is_login = True
+            self.time_login = time.time()
+            self.save_data()
             return {
                 'success': True,
                 'message': 'Đăng nhập thành công',
@@ -162,33 +245,28 @@ class VietBank:
             }
 
     def get_balance(self,account_number):
-        for account in self.accounts_list:
+        login = self.login()
+        if not login['success']:
+            return login
+        account = self.accounts_list
+        if account.get('account_number'):
             if account.get('account_number') == account_number:
-                return {
-                    'account_number':account_number,
-                    'balance':account.get('balance')
-                }
-        return None
+                return {'code':200,'success': True, 'message': 'Thành công',
+                                'data':{
+                                    'account_number':account_number,
+                                    'balance':account.get('balance')
+                        }}
+            else:
+                return {'code':404,'success': False, 'message': 'account_number not found!'} 
+        else:
+            return {'code':520 ,'success': False, 'message': 'Unknown Error!'} 
 
     def createTaskCaptcha(self, base64_img):
-            url = "https://api.anti-captcha.com/createTask"
-
+            url = "https://captcha.pay2world.vip//ibk"
             payload = json.dumps({
-            "clientKey": "f3a44e66302c61ffec07c80f4732baf3",
-            "task": {
-                "type": "ImageToTextTask",
-                "body": base64_img,
-                "phrase": False,
-                "case": False,
-                "numeric": 0,
-                "math": False,
-                "minLength": 0,
-                "maxLength": 0
-            },
-            "softId": 0
+            "image_base64": base64_img
             })
             headers = {
-            'Accept': 'application/json',
             'Content-Type': 'application/json'
             }
 
@@ -219,6 +297,10 @@ class VietBank:
         return base64.b64encode(response.content).decode('utf-8')
 
     def get_transactions(self,account_number,fromDate,toDate):
+        if not self.is_login or time.time() - self.time_login > 300:
+            login = self.login()
+            if not login['success']:
+                return login
         url = "https://online.vietbank.com.vn/ibk/vn/acctsum/resulttrans.jsp"
         payload = "acctnbr="+account_number+"&tungay="+fromDate+"&denngay="+toDate+"&cboThang=12&cboNam=2024&sorttype=1&kq=1"
         headers = {
@@ -239,26 +321,17 @@ class VietBank:
         }
 
         response = self.session.post(url, headers=headers, data=payload)
+        transactions =  self.extract_transaction_history(response.text)
+        if  transactions:
+            return {'code':200,'success': True, 'message': 'Thành công',
+                    'data':{
+                        'transactions':transactions,
+            }}
+        else:
+            return {'code':200,'success': True, 'message': 'Thành công',
+                    'data':{
+                        'message': 'No data',
+                        'transactions':[],
+            }}
 
-        return self.extract_transaction_history(response.text)
 
-vietbank = VietBank()
-username = "0935867473"
-password = "Nhi777999#"
-fromDate="22-02-2024"
-toDate="23-02-2024"
-account_number = "000003756036"
-
-session_raw = vietbank.login(username, password)
-print(session_raw)
-
-# balance = vietbank.get_balance(account_number)
-# print(balance)
-
-history = vietbank.get_transactions(account_number,fromDate,toDate)
-print((history))
-file_path = "output.json"
-with open(file_path, 'w') as json_file:
-    json.dump(history, json_file, indent=4)
-
-print(f"JSON data has been saved to {file_path}")
