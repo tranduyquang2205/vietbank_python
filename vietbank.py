@@ -121,7 +121,8 @@ class VietBank:
             date_time = item.find('p', class_='mb-2 fs-small').text.strip()
             description = item.find('p', class_='fw-bold m-0 text-break').text.strip()
             transaction_code = item.find('span', class_='fw-bold').text.strip()
-            amount = item.find('p', class_='text-danger m-0 text-end fw-bold').text.strip()
+            amount_element = item.find('p', class_='text-danger m-0 text-end fw-bold') or item.find('p', class_='text-green m-0 text-end fw-bold')
+            amount = amount_element.text.strip() if amount_element else 'N/A'
             
             transaction = {
                 'date_time': date_time,
@@ -181,12 +182,17 @@ class VietBank:
         }
 
         response = self.session.post(url, headers=headers, data=payload)
-        
-        if 'Tên truy cập chưa đăng ký sử dụng!' in response.text:
+        if 'Sai mã xác thực!' in response.text:
+            return {
+                'success': False,
+                'message': 'Sai mã xác thực!',
+                'code': 421
+            } 
+        elif 'Tên truy cập chưa đăng ký sử dụng!' in response.text:
             return {
                 'success': False,
                 'message': 'Tên truy cập chưa đăng ký sử dụng!',
-                'code': 444
+                'code': 404
             }
         elif 'ibk/vn/acctsum' not in response.text:
             return {
