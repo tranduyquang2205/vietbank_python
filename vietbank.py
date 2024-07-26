@@ -110,7 +110,7 @@ class VietBank:
         ac_element = soup.find('span', class_='me-2 text-blue')
         if ac_element:
             ac_text = ac_element.get_text(strip=True)
-        return float(ac_text.strip().replace(',','.')) if ac_element else None
+        return float(ac_text.strip().replace('.', '').replace(',','.')) if ac_element else None
     def extract_transaction_history(self,html_string):
         html_content = html_string.replace('undefined','').replace(' >','>').replace('< ','<')
         soup = BeautifulSoup(html_content, 'html.parser')
