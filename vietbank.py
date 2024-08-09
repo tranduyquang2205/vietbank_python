@@ -269,16 +269,26 @@ class VietBank:
             return {'code':520 ,'success': False, 'message': 'Unknown Error!'} 
 
     def createTaskCaptcha(self, base64_img):
-            url = "https://captcha.pay2world.vip//ibk"
-            payload = json.dumps({
-            "image_base64": base64_img
-            })
-            headers = {
-            'Content-Type': 'application/json'
-            }
-
-            response = requests.request("POST", url, headers=headers, data=payload)
-            return(response.text)
+        url_1 = 'https://captcha.pay2world.vip//ibk'
+        url_2 = 'https://captcha1.pay2world.vip//ibk'
+        url_3 = 'https://captcha2.pay2world.vip//ibk'
+        
+        payload = json.dumps({
+        "image_base64": base64_img
+        })
+        headers = {
+        'Content-Type': 'application/json'
+        }
+        
+        for _url in [url_1, url_2, url_3]:
+            try:
+                response = requests.request("POST", _url, headers=headers, data=payload, timeout=10)
+                if response.status_code in [404, 502]:
+                    continue
+                return json.loads(response.text)
+            except:
+                continue
+        return {}
 
     def checkProgressCaptcha(self, task_id):
         url = 'https://api.anti-captcha.com/getTaskResult'
