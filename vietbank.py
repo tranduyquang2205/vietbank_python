@@ -157,8 +157,11 @@ class VietBank:
         response = self.session.get(url, headers=headers, data=payload,allow_redirects=True)
        
         base64_captcha_img = self.getCaptcha()
-        task = self.createTaskCaptcha(base64_captcha_img)
-        captchaText = json.loads(task)['prediction']
+        result = self.createTaskCaptcha(base64_captcha_img)
+        if 'prediction' in result and result['prediction']:
+            captchaText = result['prediction']
+        else:
+            return {"success": False, "msg": "Error solve captcha", "data": result}
         # print(captchaText)
         url = "https://online.vietbank.com.vn/ibk/vn/login/verify_.jsp"
 
