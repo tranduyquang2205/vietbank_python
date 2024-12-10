@@ -1,45 +1,5 @@
 {
-    "code": 200,
-    "success": true,
-    "message": "Th\u00e0nh c\u00f4ng",
-    "data": {
-        "transactions": [
-            {
-                "date_time": "01/07/2024 - 23:04:57",
-                "transaction_id": "011906f0acd32l8g",
-                "remark": "QR-IBFT: HOANG ANH HUNG CHUYEN TIEN",
-                "amount": "-10.000.000,00 VND"
-            },
-            {
-                "date_time": "01/07/2024 - 23:05:37",
-                "transaction_id": "011906f0b68f2lJS",
-                "remark": "QR-IBFT: HOANG ANH HUNG CHUYEN TIEN",
-                "amount": "-10.000.000,00 VND"
-            },
-            {
-                "date_time": "02/07/2024 - 00:27:17",
-                "transaction_id": "011906f562d84FDV",
-                "remark": "QR-IBFT: HOANG ANH HUNG CHUYEN TIEN",
-                "amount": "-900.000,00 VND"
-            },
-            {
-                "date_time": "02/07/2024 - 00:29:44",
-                "transaction_id": "011906f586b5fGsc",
-                "remark": "QR-IBFT: HOANG ANH HUNG CHUYEN TIEN",
-                "amount": "-1.500.000,00 VND"
-            },
-            {
-                "date_time": "02/07/2024 - 00:31:23",
-                "transaction_id": "011906f59eea2Hxy",
-                "remark": "QR-IBFT: HOANG ANH HUNG CHUYEN TIEN",
-                "amount": "-7.300.000,00 VND"
-            },
-            {
-                "date_time": "04/07/2024 - 17:55:49",
-                "transaction_id": "011907d62dbaalJA",
-                "remark": "MB-IBFT: HOANG ANH HUNG CHUYEN TIEN",
-                "amount": "-148.299,00 VND"
-            }
-        ]
-    }
+    "success": false,
+    "message": "Sai m\u00e3 x\u00e1c th\u1ef1c!",
+    "code": 421
 }

@@ -185,7 +185,7 @@ class VietBank:
         }
 
         response = self.session.post(url, headers=headers, data=payload)
-        if 'Sai mã xác thực!' in response.text:
+        if 'Sai mã xác thực!' in response.text or '/ibk/vn/login/index2.jsp' in response.text:
             return {
                 'success': False,
                 'message': 'Sai mã xác thực!',
